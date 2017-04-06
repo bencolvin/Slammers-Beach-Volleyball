@@ -12,3 +12,28 @@ body {
 	margin-right: 100px;
 	text-decoration: white;
 }
+ul {
+    list-style-type: none;
+    margin-left: -100px;
+	margin-right: -100px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #818181;
+}
+
+li {
+    float: right;
+	border-left: 1px solid #E9E9E9;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover {
+ 	transition: 0.5s;
+	background-color: #636363;
+}
