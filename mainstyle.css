@@ -3,7 +3,7 @@ h1 {
 	margin: -8px;
 	margin-left: -100px;
 	margin-right: -100px;
-
+	
 }
 
 body {
@@ -12,6 +12,12 @@ body {
 	margin-right: 100px;
 	text-decoration: white;
 }
+
+header {
+	background: #ff0;
+	padding: 10px;
+}
+
 ul {
     list-style-type: none;
     margin-left: -100px;
@@ -36,4 +42,70 @@ li a {
 li a:hover {
  	transition: 0.5s;
 	background-color: #636363;
+}
+
+.spike {
+	float: left;
+	margin: 5px;
+	position: static;
+	
+	
+}
+.whoimg {
+	float: left;
+	padding-right: 10px;
+	
+}
+.game {
+	float: right;
+	margin-left: 5px;
+}
+
+h4 {
+	text-align: center;
+}
+
+table {
+	border-color: #333;
+	margin-left: 225px;
+	text-align: center;
+	margin-top: 0px;
+	align-self: center;
+}
+
+td,th{
+	border: 1px solid #161515;
+}
+
+
+input {
+	
+}
+
+.classic {
+	float: left;
+	margin-right: 10px;
+}
+.net {
+	float: right;
+	margin-left: 10px;
+}
+.sand {
+	float: right;
+	
+}
+.name {
+	margin-left: 100px
+}
+.phnum {
+	margin-left: 43px
+}
+.email {
+	margin-left: 51px
+}
+.sel_menu_day {
+	margin-left: 89px
+}
+.sel_menu_time {
+	margin-left: 79px
 }
